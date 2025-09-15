@@ -3,10 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SwissStyle</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="header-container">
+            <div class="logo">SwissStyle&trade;</div>
+            <nav>
+                <ul>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="principios.html">Princípios</a></li>
+                    <li><a href="designers.html">Designers</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Swiss<br>Style</h1>
+        </section>
+
+        <section class="content-section">
+            <div class="content-column">
+                <p>Influenciou o design gráfico moderno no século XX e introduziu princípios fundamentais de clareza, ordem e legibilidade.</p>
+            </div>
+            <div class="content-column">
+                <p>"Simplicidade, clareza, atemporalidade — são coisas às quais sempre voltaremos e das quais continuaremos a nos inspirar."</p>
+                <p id="quote-author">John Kim, Diretor de Design da Big Human</p>
+            </div>
+        </section>
+
+        <section class="cards-section">
+            <article class="card" id="historia">
+                <div class="card-content">
+                    <div class="card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Kunsthalle_Basel_Gubler_Zurkinden_1959.jpg" alt="">
+                    </div>
+                    <h3>História</h3>
+                    <p>O Estilo Tipográfico Internacional nasceu na Suíça nos anos 1950. Baseia-se em pureza, objetividade e uso de grades para organizar a informação visual.</p>
+                </div>
+                <button href="#" class="card-link">Saiba Mais</button>
+            </article>
+
+            <article class="card" id="principios">
+                <div class="card-content">
+                    <div class="card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Geisser_Plakat_Mohrenball_1969.jpg/800px-Geisser_Plakat_Mohrenball_1969.jpg" alt="">
+                    </div>
+                    <h3>Princípios</h3>
+                    <p>A tipografia suíça valoriza simplicidade, legibilidade e hierarquia visual, com uso grids e fontes sem serifa como a Helvetica.</p>
+                </div>
+                <button href="#" class="card-link">Saiba Mais</button>
+            </article>
+
+            <article class="card" id="designers">
+                <div class="card-content">
+                    <div class="card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/1959_-_Gewerbemuseum_Basel_-_Alte_und_neue_Formen_in_Japan.jpg" alt="">
+                    </div>
+                    <h3>Designers</h3>
+                    <p>Josef Müller-Brockmann, Max Bill e Armin Hofmann foram alguns dos principais nomes. Suas obras influenciaram o design gráfico no mundo todo.</p>
+                </div>
+                <button href="#" class="card-link">Saiba Mais</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <section>
+                <h4>SwissStyle&trade;</h4>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#historia">História</a></li>
+                        <li><a href="#principios">Princípios</a></li>
+                        <li><a href="#designers">Designers</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section>
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    
+                    <button type="submit">Inscrever</button>
+                </form>
+            </section>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 SwissStyle&trade;. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
